@@ -92,16 +92,13 @@
 	</main>
 
 <!-- JAVASCRIPT CONTENT -->
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+		integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
 	<script>
 		$(function() {
-			$( "#accordion" ).accordion({
-				collapsible: true,
-				heightStyle: "content",
-			})
-			$("#accordion").accordion({ header: "h3", collapsible: true, active: false })
+			$("#accordion").accordion({ header: "h3", collapsible: true, active: false, heightStyle: "content" })
 		})
 
 	</script>
