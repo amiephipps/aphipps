@@ -194,6 +194,10 @@ nav ul {
 	height: 100vh;
 
 	.aboutAccordion {
+		div:last-of-type {
+			margin-bottom: 15%;
+		}
+
 		@include bp(mobile) {
 			display: none;
 		}
